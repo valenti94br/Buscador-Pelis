@@ -1,0 +1,31 @@
+.pelicula {
+  display: flex;
+  flex-direction: row; 
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.pelicula img {
+  width: 50%; 
+  margin-right: 10px;
+  border-radius: 5px;
+  flex: 1; 
+}
+
+.pelicula .texto {
+  width: 50%; 
+  flex: 1;
+}
+
+.pelicula h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pelicula p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: white;
+}
